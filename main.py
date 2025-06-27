@@ -57,3 +57,9 @@ print(floor(3.5))
 #la funcion sqrt() nos va a dar la raíz cuadrada de cualquier valor que le pasemos
 
 print(sqrt(2))
+
+# Recibiendo input
+
+nombre =  input("¿Cómo te llamas? ")
+print("Hola " + nombre[0].upper() + nombre[1:])
+print("Hola " + str.capitalize(nombre))
