@@ -63,3 +63,12 @@ print(sqrt(2))
 nombre =  input("¿Cómo te llamas? ")
 print("Hola " + nombre[0].upper() + nombre[1:])
 print("Hola " + str.capitalize(nombre))
+
+# Creando una mini calculadora
+
+num1 = input("Dame un número = ")
+num2 = input("Dame otro número = ")
+
+suma = float(num1) + float(num2)
+
+print("Resultado = " + str(suma))
