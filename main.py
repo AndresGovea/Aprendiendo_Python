@@ -72,3 +72,6 @@ num2 = input("Dame otro número = ")
 suma = float(num1) + float(num2)
 
 print("Resultado = " + str(suma))
+
+# Creando un Mad lib
+
