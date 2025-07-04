@@ -1,0 +1,29 @@
+es_hombre =  False
+es_alto = True
+
+if es_hombre:
+    print("Es alto")
+else :
+    print("No es hombre")
+
+
+es_hombre = True
+es_alto = True
+
+if es_hombre and es_alto:
+    print("Es hombre y alto")
+elif es_hombre and not(es_alto):
+    print("Es un hombre chaparro")
+elif not(es_hombre) and es_alto:
+    print("Es alto pero no es hombre")
+else:
+    print("No es hombre ni alto")
+
+def num_max(num1,num2,num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >=  num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+print(num_max(127.656445,27000.6565,400))        
